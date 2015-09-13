@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+  <link rel="shortcut icon" href="http://res.freestockphotos.biz/pictures/15/15165-illustration-of-a-football-pv.png">
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+<body>
+  <!-- user login container -->
+  <div class="user_login_container">
+    <div class="user_login_text"><strong>USER LOGIN</strong></div>
+    <form method="POST" action="/" class="user_login_boxes">
+      <div class="user_username_tag"><strong>USERNAME</strong><input class="user_username" name="user[username]" value="" type="text"></input></div>
+      <div class="user_password_tag"><strong>PASSWORD</strong><input class="user_password" name="user[password]" value="" type="password"></input></div>
+      <button class="user_submit">SUBMIT</button></br>
+    </form>
+    <form action="/signup">
+        <input class="user_sign_up" type="submit" value="SIGN UP">
+    </form>
+  </div>
+  <!-- admin login container -->
+  <div class="admin_login_container">
+    <div class="admin_login_text"><strong>ADMIN LOGIN</strong></div>
+    <form method="POST" action="/" class="admin_login_boxes">
+      <div class="admin_username_tag"><strong>USERNAME</strong><input class="admin_username" name="user[username]" value="" type="text"></input></div>
+      <div class="admin_password_tag"><strong>PASSWORD</strong><input class="admin_password" name="user[password]" value="" type="password"></input></div>
+      <button class="admin_submit">SUBMIT</button></br>
+    </form>
+    <div class="become_admin">
+    	TO BECOME AN ADMIN EMAIL TOMREHNERT2011@GMAIL.COM
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+{
+  "name": "football_depthchart",
+  "version": "0.0.0",
+  "homepage": "https://github.com/trehnert23/wdi-fundamentals-rps",
+  "authors": [
+    "Thomas Rehnert <tomrehnert2011@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}
